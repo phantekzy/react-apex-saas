@@ -1,13 +1,14 @@
+/* Import section */
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
-
+/* Type section */
 type Theme = "light" | "dark";
-
+/* Interface of ThemeStore */
 interface ThemeStore {
   theme: Theme;
   toggleTheme: () => void;
 }
-
+/* Keeping the theme section in the local storage and do the toggling */
 export const useThemeStore = create<ThemeStore>()(
   persist(
     (set, get) => ({

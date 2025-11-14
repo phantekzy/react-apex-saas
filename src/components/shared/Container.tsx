@@ -1,9 +1,9 @@
-
+/* Container interface */
 interface ContainerProps {
     children: React.ReactNode;
     className?: string;
 }
-
+/* Container component */
 export const Container = ({ children, className = "" }: ContainerProps) => {
     /* Return section */
     return (

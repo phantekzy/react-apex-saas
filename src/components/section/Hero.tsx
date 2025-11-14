@@ -2,6 +2,7 @@
 import { Button } from "../shared/Button"
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
+import { Numbers } from "./Numbers"
 /* Hero Component */
 export const Hero = () => {
     /* Return section */
@@ -15,8 +16,9 @@ export const Hero = () => {
                 <span className="absolute right-4 bottom-12 w-24 h-24 rounded-3xl bg-primary blur-xl opacity-80 ">
                 </span>
             </div>
-            <div className="relative flex flex-col items-center text-center lg:text-left lg:py-8  lg:items-start lg:max-w-none max-w-3xl
-                                mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
+            <div className="relative flex flex-col items-center text-center lg:text-left lg:py-8
+                            lg:items-start lg:max-w-none max-w-3xl
+                            mx-auto lg:mx-0 lg:flex-1 lg:w-1/2">
                 <h1 className="text-heading-1 text-3xl  sm:text-4xl md:text-5xl xl:text-6xl font-bold">
                     Unlock Your Potential
                     <span
@@ -32,7 +34,8 @@ export const Hero = () => {
                     <div className="flex sm:flex-row flex-col gap-5 w-full">
                         <form action="#" className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 
                                                     shadow-lg shadow-box-shadow border border-box-border bg-box-bg 
-                                                    rounded-full ease-linear focus-within:bg-body focus-within:border-primary">
+                                                    rounded-full ease-linear focus-within:bg-body
+                                                    focus-within:border-primary">
                             <span className="min-w-max pr-2 border-r border-box-border">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +49,11 @@ export const Hero = () => {
                                     <path
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
-                                        d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"
+                                        d="M21.75 9v.906a2.25 2.25 0 01-1.183 1.981l-6.478 3.488M2.25 9v.906a2.25 2.25 
+                                        0 001.183 1.981l6.478 3.488m8.839 2.51l-4.66-2.51m0 0l-1.023-.55a2.25 2.25 0 
+                                        00-2.134 0l-1.022.55m0 0l-4.661 2.51m16.5 1.615a2.25 2.25 0 01-2.25 
+                                        2.25h-15a2.25 2.25 0 01-2.25-2.25V8.844a2.25 2.25 0 011.183-1.98l7.5-4.04a2.25 
+                                        2.25 0 012.134 0l7.5 4.04a2.25 2.25 0 011.183 1.98V19.5z"
                                     />
                                 </svg>
                             </span>
@@ -65,11 +72,13 @@ export const Hero = () => {
             {/* Image section */}
             <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl ">
                 <img className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96"
-                    src="https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    src="https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress
+                    &cs=tinysrgb&w=1600"
                     width={2350}
                     height={2359}
                 />
             </div>
         </Container>
+        <Numbers></Numbers>
     </section>
 }
