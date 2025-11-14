@@ -79,6 +79,8 @@ export const Hero = () => {
                 />
             </div>
         </Container>
-        <Numbers></Numbers>
+        {/* Numbers section */}
+        <Numbers />
+
     </section>
 }
