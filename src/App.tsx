@@ -5,7 +5,7 @@ import { Hero } from "./components/section/Hero"
 /* App Component section */
 function App() {
     /* Return section */
-    return <Layout title="Apex AI">
+    return <Layout title="ApexVerse">
         {/* Hero section */}
         <Hero />
     </Layout>

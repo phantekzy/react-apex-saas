@@ -1,4 +1,5 @@
 /* Import section */
+import { Button } from "../shared/Button"
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
 /* Hero Component */
@@ -24,12 +25,9 @@ export const Hero = () => {
                     </span>
                 </h1>
                 <Paragraph className="mt-8">
-                    Apex AI is a powerful SaaS platform that brings advanced artificial intelligence to your fingertips. Designed to simplify complex AI tasks,
-                    Apex AI helps businesses automate workflows, gain actionable insights, and make smarter,a
-                    faster decisions. With an intuitive interface, seamless integrations, and cutting edge features,
-                    Apex AI turns AI from a challenge into a competitive advantage  empowering your business to reach new heights
+                    ApexVerse AI merges virtual reality with artificial intelligence to create living digital worlds.
+                    Users can enter intelligent VR spaces, interact with AI-driven assistants, and experience technology beyond the limits of physical reality.
                 </Paragraph>
-                /* Email section */
                 <div className="mt-10 w-full flex max-w-md mx-auto lg:mx-0">
                     <div className="flex sm:flex-row flex-col gap-5 w-full">
                         <form action="#" className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 
@@ -57,9 +55,20 @@ export const Hero = () => {
                                 placeholder="Enter your Email"
                                 className="w-full py-3 outline-none bg-transparent"
                             />
+                            <Button className="min-w-max text-white ">
+                                <span className=" relative z-10">Get started</span>
+                            </Button>
                         </form>
                     </div>
                 </div>
+            </div>
+            {/* Image section */}
+            <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-none lg:mx-0 mx-auto max-w-3xl ">
+                <img className="lg:absolute lg:w-full lg:h-full rounded-3xl object-cover lg:max-h-none max-h-96"
+                    src="https://images.pexels.com/photos/8728380/pexels-photo-8728380.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                    width={2350}
+                    height={2359}
+                />
             </div>
         </Container>
     </section>
