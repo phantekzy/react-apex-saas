@@ -1,9 +1,9 @@
-
+/* ParagraphProps interface */
 interface ParagraphProps {
     children: React.ReactNode;
     className?: string;
 }
-
+/* Paragraph component section */
 export const Paragraph = ({ children, className = "" }: ParagraphProps) => {
     /* Return section */
     return (
