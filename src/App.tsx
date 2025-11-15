@@ -1,5 +1,6 @@
 /* Import section */
 import { Layout } from "./components/Layout"
+import { AboutUs } from "./components/section/AboutUs"
 import { Brands } from "./components/section/Brands"
 import { Hero } from "./components/section/Hero"
 import { Services } from "./components/section/Services"
@@ -13,6 +14,8 @@ function App() {
         <Brands />
         {/* Services section */}
         <Services />
+        {/* About us section */}
+        <AboutUs />
     </Layout>
 }
 /* Export section */

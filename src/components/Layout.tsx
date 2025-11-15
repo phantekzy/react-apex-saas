@@ -2,13 +2,11 @@
 import { Navbar } from "./elements/Navbar";
 import { Footer } from "./elements/Footer";
 import { useEffect } from "react";
-
 /* Typescript interface */
 interface layoutprops {
     title: string;
     children: React.ReactNode;
 }
-
 /* Layout Component */
 export const Layout = ({ title, children }: layoutprops) => {
     /* useEffect */

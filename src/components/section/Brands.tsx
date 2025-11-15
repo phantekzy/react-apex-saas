@@ -3,7 +3,6 @@ import { Container } from "../shared/Container"
 import { Title } from "../shared/Title"
 /* Logos section */
 const logos = [
-    "discord",
     "google",
     "mercedes",
     "microsoft",
