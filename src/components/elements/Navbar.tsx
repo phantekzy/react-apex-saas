@@ -4,7 +4,7 @@ import { BtnLink } from "../shared/BtnLink"
 import { Container } from "../shared/Container"
 import { NavItem } from "../shared/NavItem"
 /* Navigation bar Array items */
-const navItems = [
+export const navItems = [
     { href: "#", text: "Home" },
     { href: "#services", text: "Services" },
     { href: "#about-us", text: "About" },
