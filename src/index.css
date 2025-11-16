@@ -8,6 +8,7 @@
   --heading-1: 23 37 84;
   --heading-2: 31 41 55;
   --heading-3: 55 65 81;
+  --color-primary: 79 70 229;
 }
 
 .dark {
@@ -18,6 +19,7 @@
   --heading-1: 255 255 255;
   --heading-2: 243 244 246;
   --heading-3: 209 213 219;
+  --color-primary: 129 140 248;
 }
 
 @layer utilities {
@@ -29,6 +31,9 @@
   }
   .text-heading-1 {
     color: rgb(var(--heading-1));
+  }
+  .bg-primary {
+    background-color: rgb(var(--color-primary));
   }
   .text-heading-2 {
     color: rgb(var(--heading-2));

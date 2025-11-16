@@ -3,6 +3,7 @@ import { Layout } from "./components/Layout"
 import { AboutUs } from "./components/section/AboutUs"
 import { Brands } from "./components/section/Brands"
 import { Hero } from "./components/section/Hero"
+import { Pricing } from "./components/section/Pricing"
 import { Services } from "./components/section/Services"
 /* App Component section */
 function App() {
@@ -16,6 +17,8 @@ function App() {
         <Services />
         {/* About us section */}
         <AboutUs />
+        {/* Pricing section */}
+        <Pricing />
     </Layout>
 }
 /* Export section */

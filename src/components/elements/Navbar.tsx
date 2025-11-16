@@ -7,10 +7,8 @@ import { NavItem } from "../shared/NavItem"
 const navItems = [
     { href: "#", text: "Home" },
     { href: "#services", text: "Services" },
-    { href: "#features", text: "Features" },
     { href: "#about-us", text: "About" },
-    { href: "#contact", text: "Contact" },
-
+    { href: "#pricing", text: "Pricing" },
 ]
 /* Navbar Component */
 export const Navbar = () => {
