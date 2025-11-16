@@ -2,6 +2,7 @@
 import { Layout } from "./components/Layout"
 import { AboutUs } from "./components/section/AboutUs"
 import { Brands } from "./components/section/Brands"
+import { CTA } from "./components/section/CallToAction"
 import { Hero } from "./components/section/Hero"
 import { Pricing } from "./components/section/Pricing"
 import { Services } from "./components/section/Services"
@@ -19,6 +20,8 @@ function App() {
         <AboutUs />
         {/* Pricing section */}
         <Pricing />
+        {/* CallToAction section */}
+        <CTA />
     </Layout>
 }
 /* Export section */
