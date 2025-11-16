@@ -1,11 +1,12 @@
 /* Import section */
+import { Info } from "../cards/Info"
 import { Container } from "../shared/Container"
 import { Paragraph } from "../shared/Paragraph"
 import { Title } from "../shared/Title"
 /* About us component */
 export const AboutUs = () => {
     return <section id="about-us">
-        <Container className="flex flex-cols md:flex-row gap-10 lg:gap-12 items-center">
+        <Container className="flex flex-col md:flex-row gap-10 lg:gap-12 items-center">
             {/* Image col */}
             <div className="w-full md:w-5/12 lg:w-1/2">
                 <div className="w-full h-80 sm:h-96 relative">
@@ -24,6 +25,48 @@ export const AboutUs = () => {
                     and stay competitive in a rapidly evolving digital landscape. Our focus is on delivering intelligent,
                     scalable technology built for long-term impact.
                 </Paragraph>
+                {/* Cards section */}
+                <div className="pt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl">
+                    <Info
+                        title="Our Mission"
+                        description="Our mission is to use AI for the good of humanity and the planet.">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth="1.5"
+                            stroke="currentColor"
+                            className="w-4 h-4 sm:w-5 sm:h-5"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            />
+                        </svg>
+                    </Info>
+                    <Info
+                        title="Vision"
+                        description="Our vision is to drive business innovation and growth."
+                    >
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            strokeWidth="1.5"
+                            stroke="currentColor"
+                            className="w-4 h-4 sm:w-5 sm:h-5"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            />
+                        </svg>
+                    </Info>
+                </div>
             </div>
         </Container>
     </section>

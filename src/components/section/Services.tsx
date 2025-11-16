@@ -13,7 +13,8 @@ export const Services = () => {
                 <div className="text-center max-w-3xl mx-auto space-y-4">
                     <Title>Next-Generation VR & AI Services</Title>
                     <Paragraph>
-                        Unlock next-level performance with immersive VR and smart AI tools built to elevate your workflow. Here’s what we offer:
+                        Unlock next-level performance with immersive VR and smart AI tools built to elevate your workflow.
+                        Here’s what we offer:
                     </Paragraph>
                 </div>
                 {/* Services */}
